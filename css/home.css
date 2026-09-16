@@ -2,8 +2,8 @@
   background: linear-gradient(to bottom, #3a86ff, #8c56d4);
   border-radius: 50%;
   padding: 5px;
-  width: 230px;
-  height: 230px;
+  width: 260px;
+  height: 260px;
 }
 
 .photo-frame img {
@@ -14,12 +14,32 @@
   display: block;
 }
 
-.colorful-word {
-  background: linear-gradient(to right, #3a86ff, #8c56d4);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+main {
+  margin-top: 80px;
 }
 
-main {
+main h2 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  main {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .photo-frame {
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+  }
+
+  main h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
 }
