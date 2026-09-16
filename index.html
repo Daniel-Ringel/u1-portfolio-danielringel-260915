@@ -1,35 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Daniel Ringel's Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- This is the header (Top-Container) -->
     <header>
-        <nav>
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Technologies</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Contact</a></li>
-            </ul>
-        </nav>
+      <!-- Logo being a clickable link to the site -->
+      <a href="index.html" class="logo">
+        <span class="logo-code">{007}</span>
+        <span class="logo-name">pavanmg</span>
+      </a>
+      <button class="list-button">
+        <img src="./assets/list.svg" alt="Open menu" />
+      </button>
+      <!-- Navigator for the other pages and socials -->
+      <nav>
+        <!-- Clickable links that takes you to other pages -->
+        <ul class="pages">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/tech-stack.html">Technologies</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+        </ul>
+        <!-- Clickable links that takes you to the corresponding social site -->
+        <ul class="social-references">
+          <li>
+            <a><img src="./assets/twitter-x.svg" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/daniel-ringel-713186295/"
+              ><img src="./assets/linkedin.svg"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/Daniel-Ringel"
+              ><img src="./assets/github.svg"
+            /></a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
-    <main class="">
-        <h2>
-            Hi👋, </br>
-            My name is </br>
-            Daniel R </br>
-            I build things for web </br>
-        </h2>
-        <img src="" class="" alt="Picture of Daniel Ringel">
+    <!-- The front of the home page -->
+    <main>
+      <h2>
+        Hi👋, <br />
+        My name is <br />
+        <span class="colorful-word">Daniel Ringel</span> <br />
+        I build things for web <br />
+      </h2>
+      <div class="photo-frame">
+        <img src="./assets/DanielRingel.jpg" alt="Picture of Daniel Ringel" />
+      </div>
     </main>
 
     <footer>
-        <p>Designed and Coded by Pavan MG with Love & Coffee</p>
+      <p>Designed and Coded by Pavan MG with Love & Coffee</p>
     </footer>
-</body>
+  </body>
 </html>
