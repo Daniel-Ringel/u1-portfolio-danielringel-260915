@@ -7,6 +7,14 @@
 :root {
   --color-blue: #3a86ff;
   --color-purple: #8c56d4;
+  --color-logo-start-gradient: #13b1f6;
+  --color-logo-end-gradient: #d51cb0;
+  --color-author-start-gradient: #7267d3;
+  --color-author-end-gradient: #9949c5;
+  --color-coffee-start-gradient: #d034b9;
+  --color-coffee-end-gradient: #e510aa;
+  --color-love-start-gradient: #b038bd;
+  --color-love-end-gradient: #c845c0;
   --color-text: #19191a;
   --color-bg: #ffffff;
   --color-nav: #666666;
@@ -31,7 +39,11 @@ header {
 }
 
 .logo {
-  background: linear-gradient(to right, var(--color-blue), var(--color-purple));
+  background: linear-gradient(
+    to right,
+    var(--color-logo-start-gradient),
+    var(--color-logo-end-gradient)
+  );
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -110,8 +122,19 @@ main {
   flex: 1;
 }
 
-.colorful-word {
+.author {
   background: linear-gradient(to right, var(--color-blue), var(--color-purple));
+}
+
+.love {
+  background: linear-gradient(to right, var(--color-blue), var(--color-purple));
+}
+
+.coffee {
+  background: linear-gradient(to right, var(--color-blue), var(--color-purple));
+}
+
+.gradient-text {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -187,12 +210,34 @@ footer {
     order: 3;
   }
 
-  .author {
+  p > .author {
     background: linear-gradient(
       to right,
-      var(--color-blue),
-      var(--color-purple)
+      var(--color-author-start-gradient),
+      var(--color-author-end-gradient)
     );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .love {
+    background: linear-gradient(
+      to right,
+      var(--color-love-start-gradient),
+      var(--color-love-end-gradient)
+    );
+  }
+
+  .coffee {
+    background: linear-gradient(
+      to right,
+      var(--color-coffee-start-gradient),
+      var(--color-coffee-end-gradient)
+    );
+  }
+
+  .gradient-text {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
