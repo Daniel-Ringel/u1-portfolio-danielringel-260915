@@ -122,8 +122,12 @@ main {
   flex: 1;
 }
 
-.author {
+.main-author {
   background: linear-gradient(to right, var(--color-blue), var(--color-purple));
+}
+
+.author {
+  background: var(--color-text);
 }
 
 .love {
