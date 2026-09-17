@@ -1,0 +1,11 @@
+main {
+    margin-top: 80px;
+}
+
+h1 {
+    margin-bottom: 7.5%;
+}
+
+main > p {
+    margin-bottom: 7.5%;
+}
