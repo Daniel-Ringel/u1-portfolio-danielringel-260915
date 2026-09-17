@@ -1,5 +1,9 @@
 .photo-frame {
-  background: linear-gradient(to bottom, #3a86ff, #8c56d4);
+  background: linear-gradient(
+    to bottom,
+    var(--color-blue),
+    var(--color-purple)
+  );
   border-radius: 50%;
   padding: 5px;
   width: 260px;

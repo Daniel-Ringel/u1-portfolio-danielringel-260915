@@ -4,10 +4,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-blue: #3a86ff;
+  --color-purple: #8c56d4;
+  --color-text: #19191a;
+  --color-bg: #ffffff;
+  --color-nav: #666666;
+  --color-footer: #c2c2c2;
+}
+
 body {
   font-family: "Poppins", san-serif;
-  background: #ffffff;
-  color: #19191a;
+  background: var(--color-bg);
+  color: var(--color-text);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -22,7 +31,7 @@ header {
 }
 
 .logo {
-  background: linear-gradient(to right, #3a86ff, #8c56d4);
+  background: linear-gradient(to right, var(--color-blue), var(--color-purple));
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -50,7 +59,7 @@ header {
   cursor: pointer;
 }
 
-.list-button img {
+.list-button svg {
   width: 30px;
   height: auto;
 }
@@ -64,6 +73,10 @@ nav {
   margin-top: 24px;
 }
 
+.desktop-only {
+  display: none;
+}
+
 .pages {
   list-style: none;
   display: flex;
@@ -74,7 +87,7 @@ nav {
 
 .pages a {
   text-decoration: none;
-  color: #19191a;
+  color: var(--color-text);
   font-weight: 500;
 }
 
@@ -84,8 +97,13 @@ nav {
   list-style: none;
 }
 
-.social-references img {
+.social-references svg {
   width: 30px;
+  height: 30px;
+}
+
+.social-references a {
+  color: var(--color-text);
 }
 
 main {
@@ -93,7 +111,7 @@ main {
 }
 
 .colorful-word {
-  background: linear-gradient(to right, #3a86ff, #8c56d4);
+  background: linear-gradient(to right, var(--color-blue), var(--color-purple));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -104,6 +122,10 @@ footer {
 }
 
 @media (min-width: 600px) {
+  body {
+    padding: 40px 20px;
+  }
+
   header,
   main,
   footer {
@@ -113,16 +135,28 @@ footer {
     margin-right: auto;
   }
 
+  :root {
+    --color-text: #2b2b45;
+  }
+
   .list-button {
     display: none;
   }
 
   nav {
-    width: auto;
+    flex: 1;
     flex-direction: row;
+    justify-content: flex-end;
     align-items: center;
     margin-top: 0;
     gap: 56px;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: inline;
   }
 
   .pages {
@@ -130,11 +164,41 @@ footer {
     gap: 32px;
   }
 
+  .pages a {
+    color: var(--color-nav);
+  }
+
   .social-references {
     gap: 20px;
   }
 
-  .social-references img {
-    width: 22px;
+  .social-references svg {
+    width: 30px;
+    color: var(--color-nav);
+  }
+
+  .social-references li:nth-child(3) {
+    order: 1;
+  }
+  .social-references li:nth-child(1) {
+    order: 2;
+  }
+  .social-references li:nth-child(2) {
+    order: 3;
+  }
+
+  .author {
+    background: linear-gradient(
+      to right,
+      var(--color-blue),
+      var(--color-purple)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  footer {
+    color: var(--color-footer);
   }
 }
