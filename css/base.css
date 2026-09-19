@@ -21,10 +21,12 @@
   --color-footer: #c2c2c2;
   --color-heading: #2b2b45;
   --color-text-muted: #6b6b6b;
+  --color-text-muted-ligher: #A7A7A7;
   --color-tag-bg: #DFFEE2;
   --color-tag-text: #408C2D;
   --color-border-mobile: #e0e0e0;
-  --color-border-desktop: #ededed;
+  --color-border-desktop: #F1F1F2;
+  --color-header-about: #42446E;
 }
 
 body {
