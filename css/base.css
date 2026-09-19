@@ -156,10 +156,14 @@ footer {
   header,
   main,
   footer {
-    max-width: 900px;
+    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  header {
+    margin-top: 60px;
   }
 
   :root {
@@ -176,7 +180,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
     margin-top: 0;
-    gap: 56px;
+    gap: 60px;
   }
 
   .mobile-only {
@@ -188,7 +192,7 @@ footer {
 
   .pages {
     flex-direction: row;
-    gap: 32px;
+    gap: 60px;
   }
 
   .pages a {
