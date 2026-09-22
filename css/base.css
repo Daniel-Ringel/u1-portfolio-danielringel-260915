@@ -230,6 +230,10 @@ footer {
     order: 3;
   }
 
+  section.mobile-only {
+    display:none;
+  }
+
   p > .author {
     background: linear-gradient(
       to right,
