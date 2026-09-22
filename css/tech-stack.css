@@ -33,7 +33,7 @@ main h2 {
     margin-bottom: 250px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
 
     footer {
     position: fixed;

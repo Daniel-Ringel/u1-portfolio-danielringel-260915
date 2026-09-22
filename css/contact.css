@@ -21,7 +21,7 @@ main a {
     color: transparent;    
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
 
     footer {
     position: fixed;
