@@ -30,7 +30,6 @@ main h1 {
 
 @media (min-width: 600px) {
   main {
-    margin-top: 140px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -40,12 +39,12 @@ main h1 {
 
   .photo-frame {
     flex-shrink: 0;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 
   main h1 {
-    font-size: 40px;
+    font-size: 55px;
     margin-bottom: 0;
   }
 }
