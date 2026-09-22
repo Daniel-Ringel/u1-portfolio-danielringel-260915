@@ -27,6 +27,9 @@
   --color-border-mobile: #e0e0e0;
   --color-border-desktop: #F1F1F2;
   --color-header-about: #42446E;
+  --color-link: #333333;
+  --color-shadow: #00000033;
+  --color-black: #000000;
 }
 
 body {
