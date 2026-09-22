@@ -1,0 +1,47 @@
+main {
+    margin-top: 80px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+
+main h2 {
+    margin-top: 30px;
+}
+
+.icon-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.icon-grid img {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 120px;
+    display: block;
+}
+
+.icon-grid:last-child li:last-child {
+    margin-bottom: 250px;
+}
+
+@media (max-width: 600px) {
+
+    footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: var(--color-text-muted);
+    background: var(--color-bg);
+    font-size: 13px;
+    }
+
+    .author {
+    color: var(--color-text-muted);
+    }
+
+}
