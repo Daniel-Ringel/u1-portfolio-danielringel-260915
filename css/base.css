@@ -34,7 +34,7 @@
 }
 
 body {
-  font-family: "Poppins", san-serif;
+  font-family: "Poppins", sans-serif;
   background: var(--color-bg);
   color: var(--color-text);
   padding: 20px;
