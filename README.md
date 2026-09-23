@@ -9,3 +9,19 @@ A portfolio site built from Pawan's Figma design.
 - HTML
 - CSS (Flexbox and Grid)
 - Google Fonts (Poppins)
+
+## Reflektion
+
+### Från skiss till kod
+
+### Semantik
+
+### Layout
+
+### Tillgänglighet
+
+### Användarbarhet
+
+### Styrkor och brister
+
+### AI-verktyg
