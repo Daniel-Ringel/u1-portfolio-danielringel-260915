@@ -48,9 +48,7 @@ Anledningen till varför jag kom till detta beslut var för att det skulle vara 
 
 Samma med logon av sidan, att det sitter längst mot vänster i header. 
 
-Speciellt när man kollar då på saker som "About"/"Projects" och "Tech Stack" sidorna.
-
-Där används det rätt mycket grid för att kunna ordna upp själva delarna rätt. Jag kände mig att det passade bäst för att jag skulle kunna lägga till och styra utseendet enkelt medans flexbox är mer saker i en linje och hur det är ordnat.
+Grid använde jag mer på About, Projects och Tech Stack, för att kunna ordna upp delarna rätt. Jag kände att det passade bäst där, eftersom jag enkelt kunde lägga till och styra utseendet, medan flexbox är mer för saker i en linje.
 
 Bästa exemplet med flexbox är att jag kan se det som en rak elev kö inför en lunch.
 
