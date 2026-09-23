@@ -42,11 +42,11 @@ I projektkorten använde jag också div för project-body och project-links. De 
 
 ### Layout
 
-Jag använde flexbox väldigt mycket i  header/nav och main. Själva hela strukturen av hela sidan i sig.
+Jag använde flexbox väldigt mycket i header/nav och main. 
 
-Anledningen till varför jag kom till detta beslut var för att det skulle vara enklare att styra och se till att t.ex. footer sitter alltid nere och på plats i mitten.
+Anledningen till varför jag kom till detta beslut var för att det skulle vara enklare att styra och se till att t.ex. footer sitter alltid nere.
 
-Samma med logon av sidan, att det sitter längst mot vänster i header. Det märks rätt snabbt när en flexbox används och hur en grid används.
+Samma med logon av sidan, att det sitter längst mot vänster i header. 
 
 Speciellt när man kollar då på saker som "About"/"Projects" och "Tech Stack" sidorna.
 
@@ -55,6 +55,8 @@ Där används det rätt mycket grid för att kunna ordna upp själva delarna rä
 Bästa exemplet med flexbox är att jag kan se det som en rak elev kö inför en lunch.
 
 Flexbox är eleverna som är då i kö högst upp, ingången av  själva lunchsalen. Medans borden och stolarna är grid'en.
+
+Jag skrev CSS:en för mobilen först, och lade sedan till en media query med min-width: 600px för desktop. Jag valde 600px eftersom skissens mobillayout är 600px bred, så allt över det får desktoplayouten.
 
 ### Tillgänglighet
 
