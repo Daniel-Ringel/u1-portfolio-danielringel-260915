@@ -39,6 +39,7 @@ main h1 {
 }
 
 .project-body {
+    background-color: var(--color-card-bg);
     padding: 14px 16px;
 }
 
