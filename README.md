@@ -26,8 +26,6 @@ Det svåraste utifrån kodningen och vad jag försökte göra i skissen var säk
 
 Hur jag löste ut problemet var att jag fick skriva om några få delar (lägga till klasser) och se till att det sitter rätt, byta också element taggar när det behövdes om det fanns ett bättre alternativ som jag kom fram till.
 
-CSS:en kändes rätt svår att försöka strukturera fint. Det är något som man blir bättre på genom praktiska saker som olika projekt och vidare. Det är något jag själv kommer behöva öva på under tiden framåt.
-
 ### Semantik
 
 Alla sidor innehåller header, main och footer. I nav använder jag ul och li eftersom länkarna till de fem sidorna är en lista.  Samma navigering är planerad och ska finnas i alla HTML-filer, så att det är enkelt att ta sig runt på sidan.
@@ -57,8 +55,6 @@ Där används det rätt mycket grid för att kunna ordna upp själva delarna rä
 Bästa exemplet med flexbox är att jag kan se det som en rak elev kö inför en lunch.
 
 Flexbox är eleverna som är då i kö högst upp, ingången av  själva lunchsalen. Medans borden och stolarna är grid'en.
-
-Igen beslutet är mer att det var enklare att kunna styra det rätt. Inom project cards så finns det flexbox och det var mer tänkt för att styra innehållet i project-cards.
 
 ### Tillgänglighet
 
