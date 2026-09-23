@@ -3,9 +3,9 @@
 
 A portfolio site built from Pawan's Figma design.
 
-**Live site:** ###
+**Live site:** https://daniel-ringel.github.io/u1-portfolio-danielringel-260915/index.html
 
-## Built with
+## Built with:
 - HTML
 - CSS (Flexbox and Grid)
 - Google Fonts (Poppins)
