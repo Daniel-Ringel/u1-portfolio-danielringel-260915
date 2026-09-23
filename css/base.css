@@ -105,6 +105,7 @@ nav {
 }
 
 .pages {
+  font-family: "DM Sans", sans-serif;
   list-style: none;
   display: flex;
   flex-direction: column;
