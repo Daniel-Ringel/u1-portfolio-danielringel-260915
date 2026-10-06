@@ -78,6 +78,7 @@ main h3 {
     padding: 4px 12px;
     border-radius: 999px;
     font-size: 13px;
+    white-space: nowrap;
 }
 
 @media (max-width: 599px) {
