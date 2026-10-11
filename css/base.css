@@ -123,6 +123,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+  reading-flow: flex-visual;
 }
 
 .social-references svg {
